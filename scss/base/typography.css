@@ -1,0 +1,94 @@
+body {
+  font-size: 2rem;
+}
+
+.headSubHead {
+  width: 50%;
+  max-width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.rosterRow {
+  min-width: 70%;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  border: 1px solid #fff;
+  border-radius: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.rosterRowLeft {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45%;
+          flex: 1 1 45%;
+  text-align: right;
+  color: white;
+  padding: 1rem;
+}
+
+.rosterRowRight {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45%;
+          flex: 1 1 45%;
+  justify-self: flex-start;
+  color: white;
+  padding: 1rem;
+}
+
+.rosterHolder {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+}
+
+.plainText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 1rem auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.plainText--main {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.plainText--sub {
+  font-size: 2rem;
+  margin-top: 1rem;
+}

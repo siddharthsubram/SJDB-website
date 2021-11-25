@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>San Jose Dragon Boat</title>
+      <link rel="stylesheet" href="scss/main.css">
+</head>
+      <body>
+            <nav class = "navigation">
+                  <ul class="navigation--content">
+                        <li class = "navigation--content--logo navigation--content--item"> SJDB LOGO</li>
+                        <li class = "navigation--content--toggle navigation--content--item"> <i class = "fas fa-bars"> </i> </li>
+                        <li class = "navigation--content--item navigation--content--item2"><a href="index.html" class = "navigation--content--item--link">About Us</a></li>
+                        <li class = "navigation--content--item navigation--content--item2"><a href="recruitment.html" class = "navigation--content--item--link">How to Join</a></li>
+                        <li class = "navigation--content--item navigation--content--item2"><a href="roster.html" class = "navigation--content--item--link">Roster</a></li>
+                        <li class = "navigation--content--item navigation--content--item2"><a href="contact.html" class = "navigation--content--item--link">Contact Us</a></li>
+                  </ul>
+            </nav>
+
+            <script>
+                  const toggleButton = document.getElementsByClassName('navigation--content--toggle')[0];
+                  const navbarLinks = document.getElementsByClassName('navigation--content--item2');
+                  toggleButton.addEventListener('click', function(){
+                        for(var i=0; i <navbarLinks.length;i++){
+                              navbarLinks[i].classList.toggle('active'); 
+                        }
+                  })
+
+            </script>
+
+            <div class="contact">
+                  <div class="plainText">
+                        <div class="plainText--main">
+                              Thanks for stopping by our page!
+                        </div>
+                        <div class="plainText--sub"> If you have any questions regarding recruitments, collaborations, or sponsorships, please feel free to send us an email and we will get back to you as soon as we can!</div>
+                  </div>
+      
+                  <form action="" class="contactUs">
+                        <div class="contactUs--title">
+                              contact
+                        </div>
+                        <div class="contactUs--nameEmail">
+                              <div class="contactUs--nameEmail--name">
+                                    <label for="name">Name</label>
+                                    <input class = "contactUs--nameEmail--name--text" type="text" id="name" name="name">
+                              </div>
+                              <div class="contactUs--nameEmail--email">
+                                    <label for="email">Email</label>
+                                    <input class="contactUs--nameEmail--email--text" type="text" id="email" name="email">
+                              </div>
+                        </div>
+                        <div class="contactUs--message">
+                              <label for="message">MESSAGE</label>
+                              <textarea class="contactUs--message--text"name="" id="message"> </textarea>
+                        </div>
+                        <div class="contactUs--submit">
+                              <input class ="contactUs--submit--button" type="submit" value = "SEND MESSAGE">
+                        </div>
+                  </form>
+                  
+                  <div class="plainText">
+                        <div class="plainText--sub">
+                              Some of our other internet spaces
+                        </div>
+                  </div>
+      
+      
+                  <div class="socialPlug">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="socialPlug--link">
+                              <div class="socialPlug--link--holder">instagram</div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="socialPlug--link">
+                              <div class="socialPlug--link--holder">facebook</div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="socialPlug--link">
+                              <div class="socialPlug--link--holder">youtube</div>
+                        </a>
+                  </div>
+            </div>
+
+            <footer class="footer">
+                  <div class="footer--leftSide">
+                        <h1 class = "footer--leftSide--logo">
+                              <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt="">
+                        </h1>
+                        <p class ="footer--leftSide--text">
+                        San Jose Dragon Boat (SJDB) is an organization actiing independently of the Calfifornia State University (CSU) system. We took full responsibility for our organization and this website content</p>
+                  </div>
+                  <ul class="footer--rightSide">
+                        <li class = "footer--rightSide--Contact">
+                              <h2 class = "footer--rightSide--Contact--title">Contact</h2>
+                              <ul class="footer--rightSide--Contact--box">
+                                    <li><a class ="footer--rightSide--Contact--box--link"href="#">Email</a></li>
+                                    <li><a class ="footer--rightSide--Contact--box--link" href="#">Facebook</a></li>
+                                    <li><a class ="footer--rightSide--Contact--box--link" href="#">Instagram</a></li>
+                              </ul>
+                        </li>
+                        <li class="footer--rightSide--address">
+                              <h2 class = "footer--rightSide--address--title" > Practice Site</h2>
+                              <ul class="footer--rightSide--Contact--box">
+                                    <li>1450 Maple St</li>
+                                    <li>Redwood City, CA</li>
+                                    <li>94063-2719</li>
+                              </ul>
+                        </li>
+                  </ul>
+                  <div class="footer--bottom">
+                        <p> Developed by Siddharth Subramanian and Quynh-Anh Vu, dec.2021. All Rights Reserved </p>
+                  </div>
+            </footer>
+      </body>
+</html>

@@ -1,0 +1,31 @@
+.twoHalves {
+  border: 1px solid white;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem;
+  padding-top: -2rem;
+  margin-bottom: 5rem;
+}
+
+.twoHalves--left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.twoHalves--right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  padding: 1rem;
+  text-align: center;
+}

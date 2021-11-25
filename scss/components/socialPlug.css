@@ -1,0 +1,37 @@
+.socialPlug {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  margin: 10rem auto;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.socialPlug--link {
+  text-decoration: none;
+}
+
+.socialPlug--link--holder {
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+}
+
+.socialPlug--link--holder:hover {
+  color: black;
+  background-color: white;
+}

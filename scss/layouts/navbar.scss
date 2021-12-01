@@ -1,15 +1,17 @@
 .navigation {
       display: flex;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       padding-left: 5%;
       padding-right: 5%;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
       width: 100%;
       align-items: center;
       opacity: 100%;
       color: white;
-      border: 1px solid white;
-      background-color: rgb(32, 54, 54);
+      //border-radius: 1rem;
+      margin-top: 3rem;
+      background-color: $color-Primary-BlueDark;
       &--content {
             display: flex;
             width: 100%;
@@ -20,9 +22,13 @@
             &--item {
                   list-style-type: none;
                   padding: 1rem;
+                  letter-spacing: 0.2rem;
+                  margin-left: 2rem;
                   &--link {
                         text-decoration: none;
                         color: white;
+                        text-transform: uppercase;
+                        font-weight: 300;
                         &:hover {
                               background-color: cyan;
                               color: black;
@@ -32,7 +38,41 @@
             &--logo {
                   flex: 1;
                   font-size: 1.5rem;
+                  //background-color: green;
+
                   user-select: none;
+                  padding: 0;
+                  //border: 1px solid white;
+                  //background-color: orangered;
+
+                  &--holder {
+                        display: flex;
+                        flex: 0;
+                        flex-direction: row;
+
+                        &--leftSide {
+                              width: 10%;
+                              flex-shrink: 0;
+                              //background-color: blue;
+                              &--image {
+                                    flex-shrink: 0;
+                                    max-width: 100%;
+                              }
+                        }
+                        &--rightSide {
+                              margin: 0rem;
+                              margin-left: 2rem;
+                              width: 10%;
+                              flex: 1;
+
+                              text-align: left;
+                              display: flex;
+                              align-items: center;
+                              font-weight: 600;
+                              font-size: 3rem;
+                              letter-spacing: 0.7rem;
+                        }
+                  }
             }
             &--toggle {
                   display: none;

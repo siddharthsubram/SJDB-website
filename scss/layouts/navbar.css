@@ -47,10 +47,48 @@
       -ms-flex: 1;
           flex: 1;
   font-size: 1.5rem;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  background-color: green;
+}
+
+.navigation--content--logo--holder {
+  border: 1px solid white;
+  background-color: orangered;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navigation--content--logo--holder--leftSide {
+  margin: 1rem;
+  width: 10%;
+  background-color: blue;
+}
+
+.navigation--content--logo--holder--leftSide--image {
+  max-width: 100%;
+}
+
+.navigation--content--logo--holder--rightSide {
+  margin: 0rem;
+  width: 10%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: blue;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navigation--content--toggle {

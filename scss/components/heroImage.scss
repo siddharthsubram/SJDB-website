@@ -1,0 +1,61 @@
+.hero {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      display: flex;
+      flex-shrink: 1;
+      height: 100vh;
+      width: 100vw;
+      background: linear-gradient(
+                  rgba(70, 68, 68, 0.883),
+                  rgba(0, 1, 78, 0.527)
+            ),
+            url(../img/foggyPaddling.jpg);
+      //background-image: url(../img/foggyPaddling.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      &--title {
+            font-size: 3vw;
+            font-family: "Libre Franklin", sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 58%;
+            margin: 0 auto;
+            color: white;
+            //border: 2px solid white;
+            &--mainText {
+                  //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                  font-weight: 700;
+                  font-size: 6vw;
+                  //padding: 2rem;
+                  //border: 2px solid white;
+                  width: 100%;
+                  letter-spacing: 1rem;
+                  margin-bottom: 1rem;
+            }
+            &--subText {
+                  // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                  //padding: 2rem;
+                  border-bottom: 2px solid white;
+                  width: 100%;
+                  font-weight: 300;
+                  font-size: 1.5vw;
+                  letter-spacing: 2rem;
+                  margin-bottom: 2rem;
+                  padding-top: 2rem;
+                  padding-bottom: 2rem;
+            }
+            &--button {
+                  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                  background-color: $color-Primary-BlueLighter;
+                  font-weight: 300;
+                  font-size: 1.5vw;
+                  padding: 2rem;
+                  padding-left: 2.5rem;
+                  padding-right: 2.5rem;
+            }
+      }
+}

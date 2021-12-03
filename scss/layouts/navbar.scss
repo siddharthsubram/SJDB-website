@@ -10,7 +10,7 @@
       opacity: 100%;
       color: white;
       //border-radius: 1rem;
-      margin-top: 3rem;
+      //margin-top: 3rem;
       background-color: $color-Primary-BlueDark;
       &--content {
             display: flex;
@@ -80,7 +80,7 @@
       }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
       .navigation--content {
             flex-wrap: wrap;
       }

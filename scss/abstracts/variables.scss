@@ -2,8 +2,10 @@
 $color-Primary-Blue: #286e89;
 
 $color-Primary-BlueDark: #1c4f63;
+$color-Primary-BlueDarker: #1c4a5e;
 $color-Primary-BlueLight: #538e96;
 $color-Primary-BlueLighter: #2da4a4;
+$color-Primary-Cyan: #90bfc2;
 $color-Primary-BlueFaded: #385f6e;
 $color-white: #ffffff;
 $color-white-text: #cbdce4;
@@ -11,3 +13,28 @@ $color-grey-light: #c7c7c7;
 $color-grey-dark: #6a7777;
 $color-grey-darkest: #8b939b;
 $color-grey: #8d9397;
+
+/*
+@mixin respond($breakpoint) {
+      @if $breakpoint == phone {
+            @media only screen and (max-width: 37.5em) {
+                  @content;
+            } //600px
+      }
+      @if $breakpoint == tab-port {
+            @media only screen and (max-width: 56.25em) {
+                  @content;
+            } //900px
+      }
+      @if $breakpoint == tab-land {
+            @media only screen and (max-width: 75em) {
+                  @content;
+            } //1200px
+      }
+      @if $breakpoint == big-desktop {
+            @media only screen and (min-width: 112.5em) {
+                  @content;
+            } //1800
+      }
+}
+*/

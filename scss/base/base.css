@@ -11,8 +11,26 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 1200px) {
+  html {
+    font-size: 56.5%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: darkslategrey;
+  background-color: #d9e7eb;
 }

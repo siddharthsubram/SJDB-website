@@ -5,7 +5,7 @@
       //height: 50vh;
 
       //border: 2px solid green;
-      padding: 10rem;
+      padding: 5rem;
       padding-left: 15rem;
       padding-right: 15rem;
       @media (max-width: 800px) {
@@ -32,10 +32,10 @@
                   font-style: italic;
                   color: $color-Primary-BlueDarker;
                   width: 100%;
-                  margin-bottom: 1rem;
+
                   text-transform: uppercase;
                   padding: 2rem;
-                  margin-bottom: 4rem;
+                  margin-bottom: 3rem;
             }
             &--header {
                   //border: 1px solid rgb(2, 2, 2);
@@ -55,7 +55,7 @@
                   font-weight: 200;
                   font-size: 2rem;
                   padding: 2rem;
-                  //letter-spacing: 0.3rem;
+                  letter-spacing: 0.3rem;
                   padding-left: 4rem;
                   padding-right: 4rem;
                   //border: 1px solid green;

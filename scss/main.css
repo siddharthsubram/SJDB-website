@@ -693,6 +693,7 @@ textarea {
   font-size: 2rem;
   width: 75%;
   margin: 0 auto;
+  line-height: 3rem;
 }
 
 @media (max-width: 600px) {
@@ -1115,6 +1116,7 @@ textarea {
 }
 
 .intro--content--paragraph {
+  line-height: 4.5rem;
   font-weight: 200;
   font-size: 2rem;
   padding: 2rem;

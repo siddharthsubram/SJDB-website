@@ -80,3 +80,30 @@ body {
             margin-top: 1rem;
       }
 }
+
+.headerBlue {
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      background-color: $color-Primary-Blue;
+      color: white;
+      text-align: center;
+      align-items: center;
+      &--title {
+            font-size: 6rem;
+            width: 70%;
+            margin: 2rem;
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: 0.8rem;
+      }
+
+      &--subtitle {
+            font-size: 3rem;
+            width: 70%;
+            margin: 2rem;
+            font-weight: 300;
+            letter-spacing: 0.5rem;
+      }
+}

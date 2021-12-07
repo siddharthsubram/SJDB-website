@@ -1152,6 +1152,7 @@ textarea {
           flex-direction: column;
   padding: 15rem;
   padding-top: 2rem;
+  padding-bottom: 0rem;
   font-family: "Libre Franklin", sans-serif;
 }
 

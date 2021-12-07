@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.util--margin--top--2rem {
+  margin-top: 2rem;
+}
+
+.util--margin--top--5rem {
+  margin-top: 5rem;
+}
+
+.util--margin--top--10rem {
+  margin-top: 10rem;
+}
+
+.util--margin--bot--2rem {
+  margin-bottom: 2rem;
+}
+
+.util--margin--bot--5rem {
+  margin-bottom: 5rem;
+}
+
+.util--margin--bot--10rem {
+  margin-bottom: 10rem;
+}
+
 /*
 @mixin respond($breakpoint) {
       @if $breakpoint == phone {
@@ -22,7 +47,6 @@
       }
 }
 */
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   font-size: 2rem;
   font-family: "Libre Franklin", sans-serif;
@@ -154,6 +178,47 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #d9e7eb;
+}
+
+.alumniCard {
+  border: 1px solid red;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.alumniCard--leftSide {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33%;
+          flex: 1 1 33%;
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 1rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.alumniCard--leftSide--image {
+  max-width: 75%;
+  background-size: cover;
+  border-radius: 50rem;
+  border: 1px solid red;
+}
+
+.alumniCard--rightSide {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 66%;
+          flex: 1 1 66%;
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 1rem;
 }
 
 .officerCard {
@@ -551,8 +616,19 @@ textarea {
       flex-shrink: 1;
   height: 100vh;
   width: 100vw;
+}
+
+.hero--main {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 68, 68, 0.883)), to(rgba(0, 1, 78, 0.527))), url(../img/foggyPaddling.jpg);
   background: linear-gradient(rgba(70, 68, 68, 0.883), rgba(0, 1, 78, 0.527)), url(../img/foggyPaddling.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero--aboutus {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.572)), to(rgba(88, 88, 88, 0.463))), url(../img/teamBanner.jpg);
+  background: linear-gradient(rgba(85, 85, 85, 0.572), rgba(88, 88, 88, 0.463)), url(../img/teamBanner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -589,10 +665,14 @@ textarea {
 
 .hero--title--mainText {
   font-weight: 700;
-  font-size: 6rem;
   width: 100%;
   letter-spacing: 1rem;
   margin-bottom: 1rem;
+}
+
+.hero--title--mainText--big {
+  font-weight: 1000;
+  font-size: 10rem;
 }
 
 .hero--title--subText {
@@ -615,6 +695,12 @@ textarea {
   padding: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.hero--title--whitebox {
+  padding: 1rem;
+  padding-left: 25rem;
+  border-top: 3px solid white;
 }
 
 .introNav {
@@ -1054,6 +1140,58 @@ textarea {
 
 .spacer {
   margin-bottom: 30rem;
+}
+
+.bordered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15rem;
+  padding-top: 2rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.bordered--title {
+  border-top: 2px solid #2da4a4;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  color: #2da4a4;
+  letter-spacing: 0.65rem;
+}
+
+.bordered--title--small {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.bordered--title--small--link {
+  color: #2da4a4;
+}
+
+.bordered--content {
+  border: 1px solid blue;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
 }
 
 .intro {

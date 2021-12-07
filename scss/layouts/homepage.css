@@ -12,3 +12,24 @@
 .spacer {
   margin-bottom: 30rem;
 }
+
+.bordered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5rem;
+}
+
+.bordered--title {
+  border-top: 2px solid 2px solid;
+  padding: 1rem;
+}
+
+.bordered--content {
+  border: 1px solid blue;
+  padding: 1rem;
+}

@@ -5,7 +5,47 @@
       margin-bottom: 5rem;
 }
 
-
 .spacer {
       margin-bottom: 30rem;
+}
+
+.bordered {
+      display: flex;
+      flex-direction: column;
+      //border: 2px solid $color-Primary-Blue;
+      padding: 15rem;
+      padding-top: 2rem;
+      font-family: "Libre Franklin", sans-serif;
+
+      &--title {
+            border-top: 2px solid $color-Primary-BlueLighter;
+            flex: 1 1;
+            margin: 0 auto;
+            width: 100%;
+            padding-top: 8rem;
+            padding-bottom: 6rem;
+            font-size: 4rem;
+            font-weight: 700;
+            text-align: center;
+            color: $color-Primary-BlueLighter;
+            letter-spacing: 0.65rem;
+            //font-style: italic;
+            &--small {
+                  font-size: 3rem;
+                  font-weight: 400;
+                  letter-spacing: 0.2rem;
+                  &--link {
+                        color: $color-Primary-BlueLighter;
+                  }
+            }
+      }
+
+      &--content {
+            border: 1px solid blue;
+            padding: 2rem;
+
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+      }
 }

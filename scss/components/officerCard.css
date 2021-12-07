@@ -1,3 +1,44 @@
+.alumniCard {
+  border: 1px solid red;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.alumniCard--leftSide {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33%;
+          flex: 1 1 33%;
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 1rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.alumniCard--leftSide--image {
+  max-width: 75%;
+  background-size: cover;
+  border-radius: 50rem;
+  border: 1px solid red;
+}
+
+.alumniCard--rightSide {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 66%;
+          flex: 1 1 66%;
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 1rem;
+}
+
 .officerCard {
   display: -webkit-box;
   display: -ms-flexbox;

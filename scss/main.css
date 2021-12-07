@@ -331,8 +331,31 @@ body {
 .officerCard--details--content--name {
   color: #1c4a5e;
   font-weight: 800;
-  font-size: 5rem;
+  font-size: 8rem;
   text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.officerCard--details--content--factsList {
+  margin-bottom: 2rem;
+  list-style-type: none;
+  color: #ebcb6a;
+  font-weight: 700;
+  font-size: 2.75rem;
+  padding-left: 1rem;
+  padding-bottom: 4rem;
+}
+
+.officerCard--details--content--question {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1c4f63;
+  letter-spacing: 0.33rem;
+}
+
+.officerCard--details--content--text {
+  padding-left: 3rem;
+  font-size: 2rem;
 }
 
 /*

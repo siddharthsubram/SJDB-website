@@ -67,15 +67,32 @@
                   display: flex;
                   flex-direction: column;
                   justify-content: center;
+                  //margin-top: -5rem;
                   &--name {
                         color: $color-Primary-BlueDarker;
                         font-weight: 800;
-                        font-size: 5rem;
+                        font-size: 8rem;
                         text-transform: uppercase;
+                        padding-bottom: 2rem;
                   }
                   &--factsList {
+                        margin-bottom: 2rem;
+                        list-style-type: none;
+                        color: $color-accent-yellow;
+                        font-weight: 700;
+                        font-size: 2.75rem;
+                        padding-left: 1rem;
+                        padding-bottom: 4rem;
+                  }
+                  &--question {
+                        font-size: 3rem;
+                        font-weight: 500;
+                        color: $color-Primary-BlueDark;
+                        letter-spacing: 0.33rem;
                   }
                   &--text {
+                        padding-left: 3rem;
+                        font-size: 2rem;
                   }
             }
       }

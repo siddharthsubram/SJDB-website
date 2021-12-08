@@ -1,56 +1,15 @@
-/*
-.btn {
-  display: inline-flex;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0 0 0 0.5em;
-  color: black;
-  background: white;
-  border: 2px solid black;
-}
-
-.split-evenly {
-  display: flex;
-}
-
-.split-evenly > * {
-  width: 100%;
-}
-
-.split-evenly > * + * {
-  margin-left: 1em;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  border: 3px solid black;
-  padding: 2rem;
-}
-
-form .btn {
-  align-self: flex-end;
-}
-
-input,
-textarea {
-  width: 100%;
-  border: 2px solid black;
-  padding: 0.5em 1em;
-}
-*/
-
 .contactUs {
       display: flex;
       flex-direction: column;
       color: #fff;
-      background-color: rgba(255, 255, 255, 0.15);
-      border: 1px solid #fff;
+      //background-color: rgba($color-grey-dark, 0.3);
+      border: 2px solid $color-Primary-Blue;
       border-radius: 1rem;
-      width: 70%;
+      width: 100%;
       margin: 2rem auto;
       padding: 2rem;
 
+      /*
       &--title {
             border: 1px solid #fff;
             border-radius: 1rem;
@@ -59,60 +18,80 @@ textarea {
             width: 30%;
             text-align: center;
       }
-
+      */
       &--nameEmail {
             display: flex;
 
             &--name {
-                  border: 1px solid #fff;
+                  border: 2px solid $color-Primary-Blue;
                   border-radius: 1rem;
                   width: 100%;
                   margin-right: 1rem;
                   padding: 0.5rem;
-
+                  font-size: 3rem;
+                  color: $color-Primary-Blue;
+                  text-align: center;
                   &--text {
+                        border: 2px solid $color-Primary-Blue;
+                        font-size: 3rem;
                         opacity: 0.5;
                         width: 100%;
                         padding: 0.5em 1em;
+                        color: $color-Primary-Blue;
                   }
             }
             &--email {
-                  border: 1px solid #fff;
+                  border: 2px solid $color-Primary-Blue;
                   border-radius: 1rem;
                   width: 100%;
                   margin-left: 1rem;
                   padding: 0.5rem;
+                  font-size: 3rem;
+                  color: $color-Primary-Blue;
+                  text-align: center;
 
                   &--text {
+                        border: 2px solid $color-Primary-Blue;
+                        font-size: 3rem;
                         opacity: 0.5;
                         width: 100%;
                         padding: 0.5em 1em;
+                        color: $color-Primary-Blue;
                   }
             }
       }
       &--message {
-            border: 1px solid #fff;
+            border: 2px solid $color-Primary-Blue;
             border-radius: 1rem;
             padding: 2rem;
-            margin-top: 1rem;
-
+            margin-top: 3rem;
+            text-align: center;
+            color: $color-Primary-Blue;
+            font-size: 3rem;
             &--text {
+                  border: 2px solid $color-Primary-Blue;
                   opacity: 0.5;
-
+                  font-size: 3rem;
                   width: 100%;
-                  padding: 0.5em 1em;
-                  height: 30vh;
+                  padding: 1rem;
+                  height: 40vh;
+                  color: $color-Primary-Blue;
             }
             margin-bottom: 1rem;
       }
       &--submit {
+            text-align: center;
             &--button {
                   padding: 1rem;
-                  border: 1px solid #fff;
+                  border: 2px solid $color-Primary-Blue;
                   border-radius: 1rem;
-                  width: 30%;
+                  width: 40%;
+                  font-size: 3rem;
                   background-color: transparent;
-                  color: white;
+                  color: $color-Primary-Blue;
+                  text-align: center;
+                  margin: 0 auto;
+                  margin-top: 1rem;
                   &:hover {
                         background-color: white;
                         color: black;

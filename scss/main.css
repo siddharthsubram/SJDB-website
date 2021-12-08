@@ -505,47 +505,6 @@ body {
   }
 }
 
-/*
-.btn {
-  display: inline-flex;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0 0 0 0.5em;
-  color: black;
-  background: white;
-  border: 2px solid black;
-}
-
-.split-evenly {
-  display: flex;
-}
-
-.split-evenly > * {
-  width: 100%;
-}
-
-.split-evenly > * + * {
-  margin-left: 1em;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  border: 3px solid black;
-  padding: 2rem;
-}
-
-form .btn {
-  align-self: flex-end;
-}
-
-input,
-textarea {
-  width: 100%;
-  border: 2px solid black;
-  padding: 0.5em 1em;
-}
-*/
 .contactUs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -555,21 +514,21 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 1px solid #fff;
+  border: 2px solid #286e89;
   border-radius: 1rem;
-  width: 70%;
+  width: 100%;
   margin: 2rem auto;
   padding: 2rem;
-}
-
-.contactUs--title {
-  border: 1px solid #fff;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  width: 30%;
-  text-align: center;
+  /*
+      &--title {
+            border: 1px solid #fff;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            width: 30%;
+            text-align: center;
+      }
+      */
 }
 
 .contactUs--nameEmail {
@@ -579,55 +538,81 @@ textarea {
 }
 
 .contactUs--nameEmail--name {
-  border: 1px solid #fff;
+  border: 2px solid #286e89;
   border-radius: 1rem;
   width: 100%;
   margin-right: 1rem;
   padding: 0.5rem;
+  font-size: 3rem;
+  color: #286e89;
+  text-align: center;
 }
 
 .contactUs--nameEmail--name--text {
+  border: 2px solid #286e89;
+  font-size: 3rem;
   opacity: 0.5;
   width: 100%;
   padding: 0.5em 1em;
+  color: #286e89;
 }
 
 .contactUs--nameEmail--email {
-  border: 1px solid #fff;
+  border: 2px solid #286e89;
   border-radius: 1rem;
   width: 100%;
   margin-left: 1rem;
   padding: 0.5rem;
+  font-size: 3rem;
+  color: #286e89;
+  text-align: center;
 }
 
 .contactUs--nameEmail--email--text {
+  border: 2px solid #286e89;
+  font-size: 3rem;
   opacity: 0.5;
   width: 100%;
   padding: 0.5em 1em;
+  color: #286e89;
 }
 
 .contactUs--message {
-  border: 1px solid #fff;
+  border: 2px solid #286e89;
   border-radius: 1rem;
   padding: 2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  color: #286e89;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .contactUs--message--text {
+  border: 2px solid #286e89;
   opacity: 0.5;
+  font-size: 3rem;
   width: 100%;
-  padding: 0.5em 1em;
-  height: 30vh;
+  padding: 1rem;
+  height: 40vh;
+  color: #286e89;
+}
+
+.contactUs--submit {
+  text-align: center;
 }
 
 .contactUs--submit--button {
   padding: 1rem;
-  border: 1px solid #fff;
+  border: 2px solid #286e89;
   border-radius: 1rem;
-  width: 30%;
+  width: 40%;
+  font-size: 3rem;
   background-color: transparent;
-  color: white;
+  color: #286e89;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
 }
 
 .contactUs--submit--button:hover {
@@ -645,14 +630,12 @@ textarea {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 50%;
-  margin: 10rem auto;
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 1px solid #fff;
-  border-radius: 2rem;
+  margin: 2rem auto;
+  border-bottom: 1px solid #286e89;
   padding: 2rem;
 }
 
@@ -661,16 +644,22 @@ textarea {
 }
 
 .socialPlug--link--holder {
-  width: 100%;
-  border: 1px solid #fff;
+  max-width: 100%;
   border-radius: 1rem;
   padding: 1rem;
   color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .socialPlug--link--holder:hover {
-  color: black;
-  background-color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.socialPlug--link--holder--src {
+  max-width: 100%;
+  background-size: cover;
 }
 
 .accordian {
@@ -942,7 +931,7 @@ textarea {
 
 .hero--title--mainText--big {
   font-weight: 1000;
-  font-size: 10rem;
+  font-size: 9rem;
 }
 
 .hero--title--subText {

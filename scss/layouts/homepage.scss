@@ -13,13 +13,14 @@
       display: flex;
       flex-direction: column;
       //border: 2px solid $color-Primary-Blue;
-      padding: 15rem;
+      //padding: 15rem;
       padding-top: 2rem;
       padding-bottom: 0rem;
       font-family: "Libre Franklin", sans-serif;
+      text-transform: uppercase;
 
       &--title {
-            border-top: 2px solid $color-Primary-BlueLighter;
+            border-top: 2px solid $color-Primary-Blue;
             flex: 1 1;
             margin: 0 auto;
             width: 100%;
@@ -28,7 +29,7 @@
             font-size: 4rem;
             font-weight: 700;
             text-align: center;
-            color: $color-Primary-BlueLighter;
+            color: $color-Primary-Blue;
             letter-spacing: 0.65rem;
             //font-style: italic;
             &--small {
@@ -36,13 +37,13 @@
                   font-weight: 400;
                   letter-spacing: 0.2rem;
                   &--link {
-                        color: $color-Primary-BlueLighter;
+                        color: $color-Primary-Blue;
                   }
             }
       }
 
       &--content {
-            border: 1px solid blue;
+            //border: 1px solid blue;
             padding: 2rem;
 
             display: flex;

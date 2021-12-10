@@ -8,14 +8,15 @@
       margin: 0 auto;
       max-width: 80%;
       margin-bottom: 5rem;
+      background-color: $color-Primary-Cyan-Lighter;
       &--top {
             text-align: center;
             padding: 1rem;
             //border: 1px solid red;
             font-size: 2.5rem;
             letter-spacing: 0.25rem;
-            font-weight: 600;
-            color: $color-Primary-BlueDarker;
+            font-weight: 900;
+            color: $color-accent-yellow;
             margin-left: 5rem;
             margin-right: 5rem;
             border-bottom: 1px solid $color-Primary-BlueDarker;
@@ -134,9 +135,9 @@
                   align-self: center;
                   //padding: 5rem;
                   display: flex;
-                  justify-content: center;
+                  justify-content: right;
                   align-items: center;
-                  margin-right: -5rem;
+                  //margin-right: -5rem;
                   &--src {
                         border-radius: 50rem;
                         max-width: 70%;
@@ -144,6 +145,7 @@
                         //flex: 1 1 100%;
 
                         @media (max-width: 900px) {
+                              justify-content: center;
                               max-width: 50%;
                               margin-right: 0;
                         }
@@ -189,7 +191,7 @@
                         letter-spacing: 0.33rem;
                         @media (max-width: 900px) {
                               text-align: left;
-                              padding-left: 5rem;
+                              padding-left: 2rem;
                         }
                   }
                   &--text {
@@ -199,7 +201,7 @@
                         @media (max-width: 900px) {
                               text-align: left;
                               padding-top: 1rem;
-                              padding-left: 7rem;
+                              padding-left: 3rem;
                               font-size: 2rem;
                               letter-spacing: 0.3rem;
                               margin-bottom: 5rem;

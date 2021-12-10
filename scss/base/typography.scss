@@ -135,6 +135,10 @@ body {
             text-transform: uppercase;
             font-weight: 900;
             letter-spacing: 0.8rem;
+
+            @media (max-width: 600px) {
+                  font-size: 4rem;
+            }
       }
 
       &--subtitle {

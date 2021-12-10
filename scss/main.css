@@ -217,6 +217,12 @@ body {
   letter-spacing: 0.8rem;
 }
 
+@media (max-width: 600px) {
+  .headerBlue--title {
+    font-size: 4rem;
+  }
+}
+
 .headerBlue--subtitle {
   font-size: 3rem;
   width: 70%;
@@ -323,6 +329,7 @@ body {
   margin: 0 auto;
   max-width: 80%;
   margin-bottom: 5rem;
+  background-color: #deeef0;
 }
 
 .alumniCard--top {
@@ -330,8 +337,8 @@ body {
   padding: 1rem;
   font-size: 2.5rem;
   letter-spacing: 0.25rem;
-  font-weight: 600;
-  color: #1c4a5e;
+  font-weight: 900;
+  color: #ebcb6a;
   margin-left: 5rem;
   margin-right: 5rem;
   border-bottom: 1px solid #1c4a5e;
@@ -497,13 +504,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: -5rem;
 }
 
 .officerCard--details--picture--src {
@@ -514,6 +520,9 @@ body {
 
 @media (max-width: 900px) {
   .officerCard--details--picture--src {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     max-width: 50%;
     margin-right: 0;
   }
@@ -577,7 +586,7 @@ body {
 @media (max-width: 900px) {
   .officerCard--details--content--question {
     text-align: left;
-    padding-left: 5rem;
+    padding-left: 2rem;
   }
 }
 
@@ -591,7 +600,7 @@ body {
   .officerCard--details--content--text {
     text-align: left;
     padding-top: 1rem;
-    padding-left: 7rem;
+    padding-left: 3rem;
     font-size: 2rem;
     letter-spacing: 0.3rem;
     margin-bottom: 5rem;
@@ -636,22 +645,16 @@ body {
   width: 100%;
   margin: 2rem auto;
   padding: 2rem;
-  /*
-      &--title {
-            border: 1px solid #fff;
-            border-radius: 1rem;
-            margin-bottom: 1rem;
-            padding: 0.5rem;
-            width: 30%;
-            text-align: center;
-      }
-      */
 }
 
 .contactUs--nameEmail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .contactUs--nameEmail--name {
@@ -692,6 +695,26 @@ body {
   width: 100%;
   padding: 0.5em 1em;
   color: #286e89;
+}
+
+@media (max-width: 700px) {
+  .contactUs--nameEmail--email {
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contactUs--nameEmail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .contactUs--message {
@@ -737,6 +760,12 @@ body {
 .contactUs--submit--button:hover {
   background-color: #286e89;
   color: white;
+}
+
+@media (max-width: 700px) {
+  .contactUs--submit--button {
+    width: 70%;
+  }
 }
 
 .socialPlug {

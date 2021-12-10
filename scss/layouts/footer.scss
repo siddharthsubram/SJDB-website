@@ -59,7 +59,6 @@
                         }
                         &--links {
                               //border: 1px solid white;
-
                               text-align: left;
                               letter-spacing: 0.25rem;
                               display: inline-block;
@@ -70,9 +69,12 @@
                               text-transform: uppercase;
                               color: $color-grey;
                         }
-                        @media (max-width: 600px) {
-                              text-align: left;
+                        @media (max-width: 800px) {
+                              text-align: center;
                         }
+                  }
+                  @media (max-width: 600px) {
+                        text-align: center;
                   }
             }
 

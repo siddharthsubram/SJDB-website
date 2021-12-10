@@ -1183,9 +1183,15 @@ body {
   color: #8d9397;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .footer2--column--item--center {
-    text-align: left;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer2--column--item {
+    text-align: center;
   }
 }
 

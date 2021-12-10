@@ -308,6 +308,8 @@ body {
 }
 
 .alumniCard {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: 0.2rem solid #1c4a5e;
   padding: 0.5rem;
   border-radius: 3rem;
@@ -619,6 +621,8 @@ body {
 }
 
 .contactUs {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1052,7 +1056,7 @@ body {
   width: 100%;
   font-weight: 300;
   font-size: 2.5rem;
-  letter-spacing: 2.25rem;
+  letter-spacing: 2rem;
   margin-bottom: 6rem;
   padding-top: 2rem;
   padding-bottom: 2rem;

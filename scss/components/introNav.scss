@@ -27,6 +27,11 @@
 
                   margin: 0.5rem;
 
+                  a {
+                        text-decoration: none;
+                        color: white;
+                  }
+
                   &--picture {
                         //padding: 5rem;
                         //border: 1px solid white;
@@ -60,7 +65,7 @@
                         width: 75%;
                         margin: 0 auto;
                         line-height: 3rem;
-                        //border: 1px solid white;
+
                         @media (max-width: 600px) {
                               padding: 1rem;
                               padding-left: 1.5rem;

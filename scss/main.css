@@ -938,11 +938,17 @@ body {
   border-bottom: 2px solid white;
   width: 100%;
   font-weight: 300;
-  font-size: 2rem;
-  letter-spacing: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: 2.25rem;
   margin-bottom: 6rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  .hero--title--subText {
+    letter-spacing: 1rem;
+  }
 }
 
 .hero--title--button {
@@ -1003,6 +1009,11 @@ body {
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
   margin: 0.5rem;
+}
+
+.introNav--content--card a {
+  text-decoration: none;
+  color: white;
 }
 
 .introNav--content--card--picture {
@@ -1141,11 +1152,17 @@ body {
   font-size: 2rem;
 }
 
+@media (max-width: 600px) {
+  .footer2--column--item--header {
+    text-align: center;
+  }
+}
+
 .footer2--column--item--content {
   color: #8d9397;
   line-height: 5rem;
   text-transform: uppercase;
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 .footer2--column--item--center {
@@ -1181,16 +1198,11 @@ body {
   font-style: none;
   text-transform: uppercase;
   color: #8d9397;
+  margin: 0rem;
 }
 
 @media (max-width: 800px) {
   .footer2--column--item--center {
-    text-align: center;
-  }
-}
-
-@media (max-width: 600px) {
-  .footer2--column--item {
     text-align: center;
   }
 }
@@ -1500,7 +1512,7 @@ body {
 
 .intro--content--title {
   font-weight: 800;
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-style: italic;
   color: #1c4a5e;
   width: 100%;

@@ -809,10 +809,9 @@ body {
   position: relative;
   padding: 3rem;
   color: white;
-  background-color: rgba(28, 74, 94, 0.8);
+  background-color: #1c4f63;
   font-size: 3rem;
   cursor: pointer;
-  border: 1px solid white;
   border-radius: 2rem;
   border-top-left-radius: 10rem;
   border-top-right-radius: 10rem;
@@ -925,7 +924,7 @@ body {
   padding-top: 2rem;
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 @media (max-width: 950px) {
@@ -953,8 +952,11 @@ body {
 .accordian--element.active .accordian--element--question {
   border-bottom-left-radius: 0rem;
   border-bottom-right-radius: 0rem;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+  background-color: #ebcb6a;
+  color: #286e89;
 }
 
 .grid {

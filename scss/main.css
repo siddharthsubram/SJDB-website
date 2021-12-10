@@ -656,10 +656,10 @@ body {
 
 .contactUs--nameEmail--name {
   border: 2px solid #286e89;
-  border-radius: 1rem;
+  border-radius: 2rem;
   width: 100%;
   margin-right: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 3rem;
   color: #286e89;
   text-align: center;
@@ -676,10 +676,10 @@ body {
 
 .contactUs--nameEmail--email {
   border: 2px solid #286e89;
-  border-radius: 1rem;
+  border-radius: 2rem;
   width: 100%;
   margin-left: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 3rem;
   color: #286e89;
   text-align: center;
@@ -730,11 +730,13 @@ body {
   text-align: center;
   margin: 0 auto;
   margin-top: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .contactUs--submit--button:hover {
-  background-color: white;
-  color: black;
+  background-color: #286e89;
+  color: white;
 }
 
 .socialPlug {
@@ -1068,6 +1070,10 @@ body {
   }
 }
 
+.hero--title a {
+  text-decoration: none;
+}
+
 .hero--title--button {
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -1077,6 +1083,24 @@ body {
   padding: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.hero--title--button:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px;
+          box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px;
+  color: #2da4a4;
+  background-color: white;
+  -webkit-transform: translateY(-1rem) scale(1.05);
+          transform: translateY(-1rem) scale(1.05);
+}
+
+.hero--title--button:active {
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem);
 }
 
 .hero--title--whitebox {
@@ -1142,12 +1166,21 @@ body {
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 40rem;
   max-width: 80%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media (max-width: 600px) {
   .introNav--content--card--picture--src {
     max-width: 100%;
   }
+}
+
+.introNav--content--card--picture--src:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 5px 10px 20px;
+          box-shadow: rgba(0, 0, 0, 0.6) 5px 10px 20px;
 }
 
 .introNav--content--card--title {
@@ -1157,6 +1190,13 @@ body {
   font-weight: 600;
   width: 80%;
   margin: 0 auto;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.introNav--content--card--title:hover {
+  font-weight: 700;
+  color: #ebcb6a;
 }
 
 .introNav--content--card--text {
@@ -1316,6 +1356,17 @@ body {
   text-transform: uppercase;
   color: #8d9397;
   margin: 0rem;
+}
+
+.footer2--column--item--center--links--item {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.footer2--column--item--center--links--item:hover {
+  color: #6a7777;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 @media (max-width: 800px) {
@@ -1620,6 +1671,8 @@ body {
 
 .bordered--title--small--link {
   color: #286e89;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .bordered--content {
@@ -1632,6 +1685,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+}
+
+.bordered a:hover {
+  color: #ebcb6a;
+  font-weight: 600;
 }
 
 .intro {

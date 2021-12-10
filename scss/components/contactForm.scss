@@ -25,10 +25,10 @@
 
             &--name {
                   border: 2px solid $color-Primary-Blue;
-                  border-radius: 1rem;
+                  border-radius: 2rem;
                   width: 100%;
                   margin-right: 1rem;
-                  padding: 0.5rem;
+                  padding: 1rem;
                   font-size: 3rem;
                   color: $color-Primary-Blue;
                   text-align: center;
@@ -43,10 +43,10 @@
             }
             &--email {
                   border: 2px solid $color-Primary-Blue;
-                  border-radius: 1rem;
+                  border-radius: 2rem;
                   width: 100%;
                   margin-left: 1rem;
-                  padding: 0.5rem;
+                  padding: 1rem;
                   font-size: 3rem;
                   color: $color-Primary-Blue;
                   text-align: center;
@@ -93,9 +93,10 @@
                   text-align: center;
                   margin: 0 auto;
                   margin-top: 1rem;
+                  transition: all 0.5s;
                   &:hover {
-                        background-color: white;
-                        color: black;
+                        background-color: $color-Primary-Blue;
+                        color: white;
                   }
             }
       }

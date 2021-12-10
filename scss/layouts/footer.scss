@@ -72,6 +72,14 @@
                               text-transform: uppercase;
                               color: $color-grey;
                               margin: 0rem;
+
+                              &--item {
+                                    transition: all 0.4s;
+                                    &:hover {
+                                          color: $color-grey-dark;
+                                          transform: scale(1.05);
+                                    }
+                              }
                         }
                         @media (max-width: 800px) {
                               text-align: center;

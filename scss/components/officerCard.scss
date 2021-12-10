@@ -1,7 +1,7 @@
 .alumniCard {
-      border: 1px solid red;
-      padding: 2rem;
-      border-radius: 2rem;
+      border: 0.2rem solid $color-Primary-BlueDarker;
+      padding: 0.5rem;
+      border-radius: 3rem;
       display: flex;
       flex-direction: column;
       margin: 0 auto;
@@ -9,59 +9,102 @@
       margin-bottom: 5rem;
       &--top {
             text-align: center;
-            padding: 2rem;
-            border: 1px solid red;
+            padding: 1rem;
+            //border: 1px solid red;
+            font-size: 2.5rem;
+            letter-spacing: 0.25rem;
+            font-weight: 600;
+            color: $color-Primary-BlueDarker;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            border-bottom: 1px solid $color-Primary-BlueDarker;
       }
       &--bottom {
             display: flex;
             flex-direction: row;
             &--leftSide {
-                  border: 1px solid red;
+                  //border: 1px solid red;
                   margin: 0 auto;
                   display: flex;
                   justify-content: center;
-                  flex: 1 1 30%;
+                  flex: 1 1 35%;
                   align-self: center;
-                  padding: 1rem;
+                  padding: 3rem;
                   //justify-content: center;
                   //align-items: center;
                   &--image {
-                        max-width: 75%;
+                        max-width: 100%;
                         background-size: cover;
                         border-radius: 50rem;
-                        border: 1px solid red;
+                        //border: 1px solid red;
+                        @media (max-width: 700px) {
+                              max-width: 80%;
+                        }
+                  }
+                  @media (max-width: 700px) {
+                        padding: 3rem;
                   }
             }
             &--rightSide {
                   display: flex;
                   flex-direction: column;
                   justify-content: space-evenly;
+                  //padding-left: 2rem;
                   //align-items: center;
-                  flex: 1 1 70%;
+                  flex: 1 1 65%;
                   padding: 1rem;
-                  border: 1px solid red;
-                  border-radius: 1rem;
+                  //border: 1px solid red;
+                  border-radius: 2rem;
                   font-size: 3rem;
+                  @media (max-width: 700px) {
+                        padding: 2rem;
+                  }
+
+                  &--intro {
+                        //border: 1px solid red;
+                        letter-spacing: 0.15rem;
+                        font-size: 1.75rem;
+                        text-align: center;
+                        text-transform: none;
+                        margin-bottom: 1.5rem;
+                        margin-top: 1.5rem;
+                        //margin-left: -5rem;
+                        @media (max-width: 700px) {
+                              margin-top: 1rem;
+                              margin-bottom: 3rem;
+                              padding-bottom: 2rem;
+                              border-bottom: 1px solid $color-Primary-BlueDark;
+                        }
+                  }
 
                   &--question {
-                        border: 1px solid red;
-                        font-size: 2.25rem;
+                        //border: 1px solid red;
+                        font-size: 2rem;
                         font-weight: 500;
                         color: $color-Primary-BlueDark;
                         letter-spacing: 0.33rem;
                   }
                   &--answer {
                         text-transform: none;
-                        border: 1px solid red;
-                        padding-left: 5rem;
-                        font-size: 1.5rem;
+                        //border: 1px solid red;
+                        padding-left: 6rem;
+                        font-size: 1.75rem;
                         letter-spacing: 0.2rem;
+                        margin-bottom: 3rem;
+                        @media (max-width: 600px) {
+                              margin-top: 1rem;
+                              margin-bottom: 3rem;
+                              padding-left: 4rem;
+                        }
                   }
             }
-            @media (max-width: 600px) {
+            @media (max-width: 700px) {
                   flex-direction: column;
                   margin-bottom: 2rem;
             }
+      }
+      @media (max-width: 700px) {
+            max-width: 75%;
       }
 }
 

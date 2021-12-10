@@ -308,9 +308,9 @@ body {
 }
 
 .alumniCard {
-  border: 1px solid red;
-  padding: 2rem;
-  border-radius: 2rem;
+  border: 0.2rem solid #1c4a5e;
+  padding: 0.5rem;
+  border-radius: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,8 +325,14 @@ body {
 
 .alumniCard--top {
   text-align: center;
-  padding: 2rem;
-  border: 1px solid red;
+  padding: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+  color: #1c4a5e;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-bottom: 1px solid #1c4a5e;
 }
 
 .alumniCard--bottom {
@@ -340,7 +346,6 @@ body {
 }
 
 .alumniCard--bottom--leftSide {
-  border: 1px solid red;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -349,18 +354,29 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 30%;
-          flex: 1 1 30%;
+      -ms-flex: 1 1 35%;
+          flex: 1 1 35%;
   -ms-flex-item-align: center;
       align-self: center;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .alumniCard--bottom--leftSide--image {
-  max-width: 75%;
+  max-width: 100%;
   background-size: cover;
   border-radius: 50rem;
-  border: 1px solid red;
+}
+
+@media (max-width: 700px) {
+  .alumniCard--bottom--leftSide--image {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .alumniCard--bottom--leftSide {
+    padding: 3rem;
+  }
 }
 
 .alumniCard--bottom--rightSide {
@@ -375,17 +391,39 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 70%;
-          flex: 1 1 70%;
+      -ms-flex: 1 1 65%;
+          flex: 1 1 65%;
   padding: 1rem;
-  border: 1px solid red;
-  border-radius: 1rem;
+  border-radius: 2rem;
   font-size: 3rem;
 }
 
+@media (max-width: 700px) {
+  .alumniCard--bottom--rightSide {
+    padding: 2rem;
+  }
+}
+
+.alumniCard--bottom--rightSide--intro {
+  letter-spacing: 0.15rem;
+  font-size: 1.75rem;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .alumniCard--bottom--rightSide--intro {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #1c4f63;
+  }
+}
+
 .alumniCard--bottom--rightSide--question {
-  border: 1px solid red;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #1c4f63;
   letter-spacing: 0.33rem;
@@ -393,19 +431,33 @@ body {
 
 .alumniCard--bottom--rightSide--answer {
   text-transform: none;
-  border: 1px solid red;
-  padding-left: 5rem;
-  font-size: 1.5rem;
+  padding-left: 6rem;
+  font-size: 1.75rem;
   letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 600px) {
+  .alumniCard--bottom--rightSide--answer {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
   .alumniCard--bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .alumniCard {
+    max-width: 75%;
   }
 }
 

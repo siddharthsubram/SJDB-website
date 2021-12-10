@@ -59,6 +59,12 @@
                   padding-left: 4rem;
                   padding-right: 4rem;
                   //border: 1px solid green;
+                  @media (max-width: 600px) {
+                        font-size: 2rem;
+                        line-height: 3.5rem;
+                        padding-left: 2rem;
+                        padding-right: 2rem;
+                  }
             }
       }
 }

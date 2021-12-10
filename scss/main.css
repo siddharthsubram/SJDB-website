@@ -1434,11 +1434,35 @@ body {
   color: white;
   text-transform: uppercase;
   font-weight: 300;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  padding: 0.5rem;
 }
 
 .navigation--content--item--link:hover {
-  background-color: cyan;
-  color: black;
+  font-weight: 800;
+}
+
+.navigation--content--item--link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.navigation--content--item--link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .navigation--content--logo {
@@ -1476,6 +1500,14 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   max-width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navigation--content--logo--holder--leftSide--image:hover {
+  font-weight: 800;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .navigation--content--logo--holder--rightSide {
@@ -1495,6 +1527,18 @@ body {
   font-weight: 600;
   font-size: 3rem;
   letter-spacing: 0.7rem;
+}
+
+.navigation--content--logo--holder--rightSide a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navigation--content--logo--holder--rightSide a:hover {
+  font-weight: 800;
 }
 
 .navigation--content--toggle {

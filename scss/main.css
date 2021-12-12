@@ -528,6 +528,14 @@ body {
   }
 }
 
+@media (max-width: 900px) {
+  .officerCard--details--picture {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .officerCard--details--content {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 70%;

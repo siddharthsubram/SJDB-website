@@ -150,6 +150,9 @@
                               margin-right: 0;
                         }
                   }
+                  @media (max-width: 900px) {
+                        justify-content: center;
+                  }
             }
 
             &--content {

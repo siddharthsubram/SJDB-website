@@ -77,6 +77,9 @@
                               padding-bottom: 2rem;
                               border-bottom: 1px solid $color-Primary-BlueDark;
                         }
+                        &--small {
+                              font-size: 1.25rem;
+                        }
                   }
 
                   &--question {
@@ -85,11 +88,15 @@
                         font-weight: 500;
                         color: $color-Primary-BlueDark;
                         letter-spacing: 0.33rem;
+                        margin-bottom: 0.5rem;
+                        &--small {
+                              font-size: 1.5rem;
+                        }
                   }
                   &--answer {
                         text-transform: none;
                         //border: 1px solid red;
-                        padding-left: 6rem;
+                        padding-left: 4rem;
                         font-size: 1.75rem;
                         letter-spacing: 0.2rem;
                         margin-bottom: 3rem;
@@ -97,6 +104,9 @@
                               margin-top: 1rem;
                               margin-bottom: 3rem;
                               padding-left: 4rem;
+                        }
+                        &--small {
+                              font-size: 1.25rem;
                         }
                   }
             }

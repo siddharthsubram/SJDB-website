@@ -431,16 +431,25 @@ body {
   }
 }
 
+.alumniCard--bottom--rightSide--intro--small {
+  font-size: 1.25rem;
+}
+
 .alumniCard--bottom--rightSide--question {
   font-size: 2rem;
   font-weight: 500;
   color: #1c4f63;
   letter-spacing: 0.33rem;
+  margin-bottom: 0.5rem;
+}
+
+.alumniCard--bottom--rightSide--question--small {
+  font-size: 1.5rem;
 }
 
 .alumniCard--bottom--rightSide--answer {
   text-transform: none;
-  padding-left: 6rem;
+  padding-left: 4rem;
   font-size: 1.75rem;
   letter-spacing: 0.2rem;
   margin-bottom: 3rem;
@@ -452,6 +461,10 @@ body {
     margin-bottom: 3rem;
     padding-left: 4rem;
   }
+}
+
+.alumniCard--bottom--rightSide--answer--small {
+  font-size: 1.25rem;
 }
 
 @media (max-width: 700px) {

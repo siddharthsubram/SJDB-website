@@ -629,8 +629,8 @@ body {
 }
 
 .officerCard--details--content--text {
-  padding-left: 4rem;
-  font-size: 2.2rem;
+  padding-left: 5rem;
+  font-size: 2rem;
   letter-spacing: 0.2rem;
 }
 
@@ -1027,7 +1027,7 @@ body {
 }
 
 .grid {
-  padding: 2rem;
+  padding: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1041,6 +1041,11 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
+  /*
+            @media (min-width: 500px) {
+                  flex: 1 1 48%;
+            }
+            */
 }
 
 .grid--item--inside {
@@ -1052,23 +1057,15 @@ body {
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-@media (min-width: 500px) {
-  .grid--item {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 45%;
-            flex: 1 1 45%;
-  }
-}
-
 @media (min-width: 1000px) {
   .grid--item {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 25%;
-            flex: 1 1 25%;
+        -ms-flex: 1 1 40%;
+            flex: 1 1 40%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .grid--item {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 22%;
@@ -1114,12 +1111,39 @@ body {
   background-position: center;
 }
 
-.hero--aboutus {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.572)), to(rgba(88, 88, 88, 0.463))), url(../img/teamBanner.jpg);
-  background: linear-gradient(rgba(85, 85, 85, 0.572), rgba(88, 88, 88, 0.463)), url(../img/teamBanner.jpg);
+.hero--Roster {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.688)), to(rgba(66, 66, 66, 0.463))), url(../img/teamBanner.jpg);
+  background: linear-gradient(rgba(85, 85, 85, 0.688), rgba(66, 66, 66, 0.463)), url(../img/teamBanner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.hero--recruitment {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.5)), to(rgba(88, 88, 88, 0.4))), url(../img/teamPics/recruitment.jpg);
+  background: linear-gradient(rgba(85, 85, 85, 0.5), rgba(88, 88, 88, 0.4)), url(../img/teamPics/recruitment.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 10rem;
+}
+
+.hero--aboutUs {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.572)), to(rgba(88, 88, 88, 0.463))), url(../img/teamPics/cc2019_2.jpg);
+  background: linear-gradient(rgba(85, 85, 85, 0.572), rgba(88, 88, 88, 0.463)), url(../img/teamPics/cc2019_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 10rem;
+}
+
+.hero--contactUs {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.572)), to(rgba(88, 88, 88, 0.463))), url(../img/teamPics/sjdb6.jpg);
+  background: linear-gradient(rgba(85, 85, 85, 0.572), rgba(88, 88, 88, 0.463)), url(../img/teamPics/sjdb6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 10rem;
 }
 
 .hero--title {
@@ -1483,6 +1507,11 @@ body {
   color: #6a7777;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.footer2--column--item--center--links--item a {
+  text-decoration: none;
+  color: #8d9397;
 }
 
 @media (max-width: 800px) {

@@ -16,15 +16,51 @@
             background-position: center;
       }
 
-      &--aboutus {
+      &--Roster {
             background: linear-gradient(
-                        rgba(85, 85, 85, 0.572),
-                        rgba(88, 88, 88, 0.463)
+                        rgba(85, 85, 85, 0.688),
+                        rgba(66, 66, 66, 0.463)
                   ),
                   url(../img/teamBanner.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+      }
+
+      &--recruitment {
+            background: linear-gradient(
+                        rgba(85, 85, 85, 0.5),
+                        rgba(88, 88, 88, 0.4)
+                  ),
+                  url(../img/teamPics/recruitment.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            left: 10rem;
+      }
+
+      &--aboutUs {
+            background: linear-gradient(
+                        rgba(85, 85, 85, 0.572),
+                        rgba(88, 88, 88, 0.463)
+                  ),
+                  url(../img/teamPics/cc2019_2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            left: 10rem;
+      }
+
+      &--contactUs {
+            background: linear-gradient(
+                        rgba(85, 85, 85, 0.572),
+                        rgba(88, 88, 88, 0.463)
+                  ),
+                  url(../img/teamPics/sjdb6.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            left: 10rem;
       }
 
       //background-image: url(../img/foggyPaddling.jpg);

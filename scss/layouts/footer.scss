@@ -79,6 +79,10 @@
                                           color: $color-grey-dark;
                                           transform: scale(1.05);
                                     }
+                                    a {
+                                          text-decoration: none;
+                                          color: $color-grey;
+                                    }
                               }
                         }
                         @media (max-width: 800px) {

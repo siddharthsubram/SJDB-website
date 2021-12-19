@@ -1,12 +1,11 @@
 .grid {
-      padding: 2rem;
+      padding: 4rem;
       display: flex;
       flex-wrap: wrap;
       &--item {
             margin: 1em;
             min-width: 100px;
             flex: 1 1 100%;
-
             &--inside {
                   max-width: 100%;
                   object-fit: contain;
@@ -14,14 +13,17 @@
                   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             }
 
+            /*
             @media (min-width: 500px) {
-                  flex: 1 1 45%;
+                  flex: 1 1 48%;
             }
+            */
 
             @media (min-width: 1000px) {
-                  flex: 1 1 25%;
+                  flex: 1 1 40%;
             }
-            @media (min-width: 1200px) {
+
+            @media (min-width: 1400px) {
                   flex: 1 1 22%;
             }
       }

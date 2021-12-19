@@ -65,7 +65,7 @@
                   &--intro {
                         //border: 1px solid red;
                         letter-spacing: 0.15rem;
-                        font-size: 1.75rem;
+                        font-size: 2.5rem;
                         text-align: center;
                         text-transform: none;
                         margin-bottom: 1.5rem;
@@ -78,35 +78,34 @@
                               border-bottom: 1px solid $color-Primary-BlueDark;
                         }
                         &--small {
-                              font-size: 1.25rem;
+                              font-size: 2rem;
                         }
                   }
 
                   &--question {
                         //border: 1px solid red;
-                        font-size: 2rem;
+                        font-size: 2.5rem;
                         font-weight: 500;
                         color: $color-Primary-BlueDark;
                         letter-spacing: 0.33rem;
-                        margin-bottom: 0.5rem;
                         &--small {
-                              font-size: 1.5rem;
+                              font-size: 2.25rem;
                         }
                   }
                   &--answer {
                         text-transform: none;
                         //border: 1px solid red;
                         padding-left: 4rem;
-                        font-size: 1.75rem;
+                        font-size: 2.25rem;
                         letter-spacing: 0.2rem;
-                        margin-bottom: 3rem;
+                        margin-bottom: 2.5rem;
                         @media (max-width: 600px) {
                               margin-top: 1rem;
                               margin-bottom: 3rem;
                               padding-left: 4rem;
                         }
                         &--small {
-                              font-size: 1.25rem;
+                              font-size: 2rem;
                         }
                   }
             }

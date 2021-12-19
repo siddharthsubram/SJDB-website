@@ -415,7 +415,7 @@ body {
 
 .alumniCard--bottom--rightSide--intro {
   letter-spacing: 0.15rem;
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   text-align: center;
   text-transform: none;
   margin-bottom: 1.5rem;
@@ -432,24 +432,25 @@ body {
 }
 
 .alumniCard--bottom--rightSide--intro--small {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .alumniCard--bottom--rightSide--question {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #1c4f63;
   letter-spacing: 0.33rem;
+  margin-bottom: 0.5rem;
 }
 
 .alumniCard--bottom--rightSide--question--small {
-  font-size: 2.25rem;
+  font-size: 1rem;
 }
 
 .alumniCard--bottom--rightSide--answer {
   text-transform: none;
   padding-left: 4rem;
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   letter-spacing: 0.2rem;
   margin-bottom: 2.5rem;
 }
@@ -463,7 +464,7 @@ body {
 }
 
 .alumniCard--bottom--rightSide--answer--small {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 700px) {

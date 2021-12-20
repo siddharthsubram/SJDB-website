@@ -53,14 +53,14 @@
 
       &--contactUs {
             background: linear-gradient(
-                        rgba(85, 85, 85, 0.572),
-                        rgba(88, 88, 88, 0.463)
+                        rgba(85, 85, 85, 0.2),
+                        rgba(88, 88, 88, 0.3)
                   ),
-                  url(../img/teamPics/sjdb6.JPG);
+                  url(../img/teamPics/retreat.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            left: 10rem;
+            top: -30rem;
       }
 
       //background-image: url(../img/foggyPaddling.jpg);

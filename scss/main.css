@@ -1123,8 +1123,8 @@ body {
 }
 
 .hero--recruitment {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.5)), to(rgba(88, 88, 88, 0.4))), url(../img/teamPics/recruitment.jpg);
-  background: linear-gradient(rgba(85, 85, 85, 0.5), rgba(88, 88, 88, 0.4)), url(../img/teamPics/recruitment.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.3)), to(rgba(88, 88, 88, 0.2))), url(../img/teamPics/sjdb3.jpg);
+  background: linear-gradient(rgba(85, 85, 85, 0.3), rgba(88, 88, 88, 0.2)), url(../img/teamPics/sjdb3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1141,8 +1141,8 @@ body {
 }
 
 .hero--contactUs {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.572)), to(rgba(88, 88, 88, 0.463))), url(../img/teamPics/sjdb6.jpg);
-  background: linear-gradient(rgba(85, 85, 85, 0.572), rgba(88, 88, 88, 0.463)), url(../img/teamPics/sjdb6.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.572)), to(rgba(88, 88, 88, 0.463))), url(../img/teamPics/sjdb6.JPG);
+  background: linear-gradient(rgba(85, 85, 85, 0.572), rgba(88, 88, 88, 0.463)), url(../img/teamPics/sjdb6.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

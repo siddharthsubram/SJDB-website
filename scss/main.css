@@ -506,8 +506,8 @@ body {
           flex-direction: column;
   color: black;
   margin: 0 auto;
+  margin-bottom: 5rem;
   max-width: 90%;
-  margin-bottom: 10rem;
 }
 
 .officerCard--details {
@@ -644,6 +644,7 @@ body {
   padding-left: 5rem;
   font-size: 1.75rem;
   letter-spacing: 0.2rem;
+  margin: 0 auto;
 }
 
 @media (max-width: 900px) {
@@ -660,6 +661,7 @@ body {
 @media (max-width: 900px) {
   .officerCard--details--content {
     text-align: center;
+    padding-left: 2rem;
   }
 }
 

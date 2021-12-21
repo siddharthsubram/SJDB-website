@@ -80,8 +80,8 @@
                         &--small {
                               font-size: 1rem;
                         }
-                        &--med{
-                              font-size:1.125rem;
+                        &--med {
+                              font-size: 1.125rem;
                         }
                   }
 
@@ -95,8 +95,8 @@
                         &--small {
                               font-size: 1rem;
                         }
-                        &--med{
-                              font-size:1.25rem; 
+                        &--med {
+                              font-size: 1.25rem;
                         }
                   }
                   &--answer {
@@ -114,8 +114,8 @@
                         &--small {
                               font-size: 1rem;
                         }
-                        &--med{
-                              font-size:1.125rem; 
+                        &--med {
+                              font-size: 1.125rem;
                         }
                   }
             }
@@ -231,13 +231,13 @@
                   }
                   &--text {
                         padding-left: 5rem;
-                        font-size: 2rem;
+                        font-size: 1.75rem;
                         letter-spacing: 0.2rem;
                         @media (max-width: 900px) {
                               text-align: left;
                               padding-top: 1rem;
                               padding-left: 3rem;
-                              font-size: 2rem;
+                              font-size: 1.5rem;
                               letter-spacing: 0.3rem;
                               margin-bottom: 5rem;
                         }
@@ -252,7 +252,7 @@
                   border-bottom: 1px solid $color-Primary-Blue;
             }
       }
-      margin-bottom: 15rem;
+      margin-bottom: 10rem;
       @media (max-width: 900px) {
             margin-bottom: 5rem;
       }

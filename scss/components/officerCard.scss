@@ -80,6 +80,9 @@
                         &--small {
                               font-size: 1rem;
                         }
+                        &--med{
+                              font-size:1.125rem;
+                        }
                   }
 
                   &--question {
@@ -91,6 +94,9 @@
                         margin-bottom: 0.5rem;
                         &--small {
                               font-size: 1rem;
+                        }
+                        &--med{
+                              font-size:1.25rem; 
                         }
                   }
                   &--answer {
@@ -107,6 +113,9 @@
                         }
                         &--small {
                               font-size: 1rem;
+                        }
+                        &--med{
+                              font-size:1.125rem; 
                         }
                   }
             }
